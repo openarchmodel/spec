@@ -70,7 +70,7 @@ repo = 'spec'
 proposal = ''
 
 # The draft version string (clear out for release cuts)
-draft = ' (Draft ' + date.today().strftime("%Y-%m-%d") + ')'
+draft = ' (Draft ' + date.today().strftime("%Y-%m-%-d") + ')'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
