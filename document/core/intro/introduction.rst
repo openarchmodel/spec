@@ -4,7 +4,7 @@ Introduction
 OpenArchitectureModel is a *language for defining and querying software architecture models*.
 Its main goal is to enable developers to define architecture elements in a standard way.
 
-OpenArchitectureModel is an open standard developed by `Sheikh Mohammad Sajid`_.
+OpenArchitectureModel is an open standard developed by `Sheikh Mohammad Sajid`.
 
 This document describes version |release| of the :ref:`core <scope>` OpenArchitectureModel standard.
 It is intended that it will be superseded by new incremental releases with additional features in the future.

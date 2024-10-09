@@ -61,7 +61,7 @@ title = u'OpenArchitectureModel Specification'
 copyright = u'2024, Sheikh Mohammad Sajid'
 author = u'Sheikh Mohammad Sajid'
 editor = u'Sheikh Mohammad sajid (editor)'
-logo = 'static/oam.png'
+logo = 
 
 # The name of the GitHub repository this resides in
 repo = 'spec'
