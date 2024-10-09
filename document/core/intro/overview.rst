@@ -46,3 +46,10 @@ This language is structured around the following concepts.
 
 **Deployment**
 
+.. _adr:
+
+**Architecture Decision Records**
+
+.. _fitness:
+
+**Fitness Functions**
