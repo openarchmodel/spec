@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Introduction &#8212; OpenArchitectureModel 0.1.0 (Draft 2024-10-12)</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css?v=686e5160" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=057308f9" />
+    <script src="../_static/documentation_options.js?v=4693e788"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script>window.MathJax = {"tex": {"maxBuffer": 30720}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Overview" href="overview.html" />
+    <link rel="prev" title="Introduction" href="index.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper"><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Introduction</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="overview.html">Overview</a></li>
+</ul>
+</li>
+</ul>
+
+
+<hr />
+<ul>
+    
+    <li class="toctree-l1"><a href="../genindex.html">Index</a></li>
+    
+    <li class="toctree-l1"><a href="../_download/OpenArchitectureModel.pdf">Download as PDF</a></li>
+    
+</ul>
+
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">¶</a></h1>
+<p>OpenArchitectureModel is a <em>language for defining and querying software architecture models</em>.
+Its main goal is to enable developers to define architecture elements in a standard way.</p>
+<p>OpenArchitectureModel is an open standard developed by <cite>Sheikh Mohammad Sajid</cite>.</p>
+<p>This document describes version 0.1.0 (Draft 2024-10-12) of the <a class="reference internal" href="#scope"><span class="std std-ref">core</span></a> OpenArchitectureModel standard.
+It is intended that it will be superseded by new incremental releases with additional features in the future.</p>
+<section id="design-goals">
+<span id="goals"></span><h2>Design Goals<a class="headerlink" href="#design-goals" title="Link to this heading">¶</a></h2>
+<p id="index-0">The design goals of OpenArchitectureModel are the following:</p>
+<ul class="simple">
+<li><p>Fast, safe, and portable <em>semantics</em>:</p>
+<ul>
+<li><p><strong>Well-defined</strong>: fully and precisely defines the syntax.</p></li>
+<li><p><strong>Language-independent</strong>: does not privilege any particular language, programming model, or object model.</p></li>
+<li><p><strong>Open</strong>: programs can interoperate with their environment in a simple and universal manner.</p></li>
+</ul>
+</li>
+<li><p>Efficient and portable <em>representation</em>:</p>
+<ul>
+<li><p><strong>Modular</strong>: programs can be split up in smaller parts that can be transmitted, cached, and consumed separately.</p></li>
+<li><p><strong>Portable</strong>: makes no architectural assumptions that are not broadly supported across modern hardware.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="scope">
+<span id="id1"></span><h2>Scope<a class="headerlink" href="#scope" title="Link to this heading">¶</a></h2>
+<p>At its core, OpenArchitectureModel is a model for storing and retrieving data about software elements.
+To encompass their variety and enable maximum reuse, the OpenArchitectureModel specification is split and layered into several documents.</p>
+<p>This document is concerned with the core layer of OpenArchitectureModel.
+It defines the base model, query syntax, validation, and execution semantics.
+It does not, however, define how OpenArchitectureModel data are stored within a specific environment they execute in, nor how they are invoked from such an environment.</p>
+<span class="target" id="dependencies"><span id="index-2"></span><span id="index-1"></span></span></section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &#169;2024, Sheikh Mohammad Sajid.
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>
