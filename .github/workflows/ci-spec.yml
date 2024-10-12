@@ -29,7 +29,7 @@ jobs:
       - name: Setup TexLive
         run: sudo apt-get update -y && sudo apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
       - name: Setup Sphinx
-        run: pip install six && pip install sphinx==5.1.0
+        run: pip install six && pip install sphinx==8.1.1
       - name: Build main spec
         run: cd document/core && make main
       - name: Run Bikeshed
