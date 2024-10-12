@@ -489,6 +489,7 @@ epub_exclude_files = ['search.html']
 rst_prolog = """
 .. |issuelink| replace:: https://github.com/openarchmodel/""" + repo + """/issues/
 .. |pagelink| replace:: https://openarchmodel.github.io/""" + repo + """/core/
+.. include:: /""" + pwd + """/util/macros.def
 """
 
 # https://www.sphinx-doc.org/en/master/usage/extensions/math.html#confval-mathjax3_config
