@@ -142,9 +142,9 @@ singlehtml: $(GENERATED)
 
 .PHONY: bikeshed
 bikeshed: $(GENERATED)
-	$(SPHINXBUILD) -b singlehtml \
+	$(SPHINXBUILD) -b singlehtml -c util/bikeshed \
 		$(ALLSPHINXOPTS) $(BUILDDIR)/bikeshed_singlehtml
-	python3 $(BUILDDIR)/bikeshed_singlehtml/index.html \
+	python3 util/bikeshed_fixup.py $(BUILDDIR)/bikeshed_singlehtml/index.html \
 		>$(BUILDDIR)/bikeshed_singlehtml/index_fixed.html
 	@echo ==== Showing contents of _build/bikeshed_singlehtml/index_fixed.html ====
 	@head -n10 _build/bikeshed_singlehtml/index_fixed.html
