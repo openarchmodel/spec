@@ -8,15 +8,16 @@ Concepts
 ~~~~~~~~
 
 OpenArchitectureModel is a high-level, SQL-like programming language.
-This language is structured around the following concepts.
+This language is structured around the following concepts:
 
 .. _organisation:
 
 **Organisation**
+An organisation is a tenant with its own set of architectural information that are versioned together. Transactions are limited to a single organisation and do not span multiple organisations.
 
-.. _group:
+.. _space:
 
-**Group**
+**Space**
 
 .. _application:
 
@@ -34,9 +35,9 @@ This language is structured around the following concepts.
 
 **Element**
 
-.. _module:
+.. _extension:
 
-**Module**
+**Extensions**
 
 .. _release:
 
