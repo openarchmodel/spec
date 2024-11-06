@@ -75,7 +75,10 @@ This language is structured around the following concepts:</p>
 An organization operates as a single tenant, maintaining its own set of architectural information that is versioned collectively. Transactions are restricted to the scope of one organization and cannot extend across multiple organizations. User access and permissions are likewise confined to a single organization, ensuring isolated data governance and security at the tenant level.</p>
 <p id="space"><strong>Space</strong>
 Spaces are functional areas within an organization, designed to group and manage related information specific to teams, departments, groups, or sections. These spaces follow a hierarchical structure, supporting multiple sub-levels to reflect organizational complexity. The hierarchical model ensures that information is organized according to business needs and roles, promoting streamlined workflows and role-based access management.</p>
-<p id="application"><strong>Application</strong></p>
+<dl class="simple" id="application">
+<dt><strong>Application</strong></dt><dd><p>An application is a distinct software component or module that resides within a single Space. Each application is associated exclusively with one Space, allowing it to inherit the permissions, hierarchy, and structural organization of that Space. Applications serve as functional units that provide specific capabilities or services within the organization’s system, aligned with the scope and access controls of the Space to which they belong. This ensures that applications operate within defined organizational boundaries, facilitating modular deployment, isolated data handling, and efficient role-based access management.</p>
+</dd>
+</dl>
 <p id="framework"><strong>Framework</strong></p>
 <p id="profile"><strong>Profile</strong></p>
 <p id="element"><strong>Element</strong></p>
