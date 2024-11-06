@@ -23,7 +23,7 @@ Spaces are functional areas within an organization, designed to group and manage
 .. _application:
 
 **Application**
-
+ An application is a distinct software component or module that resides within a single Space. Each application is associated exclusively with one Space, allowing it to inherit the permissions, hierarchy, and structural organization of that Space. Applications serve as functional units that provide specific capabilities or services within the organization’s system, aligned with the scope and access controls of the Space to which they belong. This ensures that applications operate within defined organizational boundaries, facilitating modular deployment, isolated data handling, and efficient role-based access management.
 .. _framework:
 
 **Framework**
