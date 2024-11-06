@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Overview &#8212; OpenArchitectureModel 0.1.0 (Draft 2024-10-26)</title>
+    <title>Overview &#8212; OpenArchitectureModel 0.1.0 (Draft 2024-11-6)</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../_static/basic.css?v=686e5160" />
     <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=057308f9" />
-    <script src="../_static/documentation_options.js?v=6dfd8c83"></script>
+    <script src="../_static/documentation_options.js?v=0e54e61e"></script>
     <script src="../_static/doctools.js?v=9bcbadda"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script>window.MathJax = {"tex": {"maxBuffer": 30720}}</script>
@@ -71,9 +71,10 @@
 <span id="index-0"></span><span id="id1"></span><h2>Concepts<a class="headerlink" href="#concepts" title="Link to this heading">¶</a></h2>
 <p>OpenArchitectureModel is a high-level, SQL-like programming language.
 This language is structured around the following concepts:</p>
-<p id="organisation"><strong>Organisation</strong>
-An organisation is a tenant with its own set of architectural information that are versioned together. Transactions are limited to a single organisation and do not span multiple organisations.</p>
-<p id="space"><strong>Space</strong></p>
+<p id="organisation"><strong>Organization</strong>
+An organization operates as a single tenant, maintaining its own set of architectural information that is versioned collectively. Transactions are restricted to the scope of one organization and cannot extend across multiple organizations. User access and permissions are likewise confined to a single organization, ensuring isolated data governance and security at the tenant level.</p>
+<p id="space"><strong>Space</strong>
+Spaces are functional areas within an organization, designed to group and manage related information specific to teams, departments, groups, or sections. These spaces follow a hierarchical structure, supporting multiple sub-levels to reflect organizational complexity. The hierarchical model ensures that information is organized according to business needs and roles, promoting streamlined workflows and role-based access management.</p>
 <p id="application"><strong>Application</strong></p>
 <p id="framework"><strong>Framework</strong></p>
 <p id="profile"><strong>Profile</strong></p>
