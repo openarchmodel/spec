@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Overview &#8212; OpenArchitectureModel 0.1.0 (Draft 2024-11-6)</title>
+    <title>Overview &#8212; OpenArchitectureModel 0.1.0 (Draft 2024-12-2)</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../_static/basic.css?v=686e5160" />
     <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=057308f9" />
-    <script src="../_static/documentation_options.js?v=0e54e61e"></script>
+    <script src="../_static/documentation_options.js?v=ce918eb0"></script>
     <script src="../_static/doctools.js?v=9bcbadda"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script>window.MathJax = {"tex": {"maxBuffer": 30720}}</script>
@@ -77,14 +77,18 @@ An organization operates as a single tenant, maintaining its own set of architec
 Spaces are functional areas within an organization, designed to group and manage related information specific to teams, departments, groups, or sections. These spaces follow a hierarchical structure, supporting multiple sub-levels to reflect organizational complexity. The hierarchical model ensures that information is organized according to business needs and roles, promoting streamlined workflows and role-based access management.</p>
 <p id="application"><strong>Application</strong>
 An application is a distinct software component or module that resides within a single Space. Each application is associated exclusively with one Space, allowing it to inherit the permissions, hierarchy, and structural organization of that Space. Applications serve as functional units that provide specific capabilities or services within the organization’s system, aligned with the scope and access controls of the Space to which they belong. This ensures that applications operate within defined organizational boundaries, facilitating modular deployment, isolated data handling, and efficient role-based access management.</p>
-<p id="framework"><strong>Framework</strong></p>
+<p id="framework"><strong>Framework</strong>
+A framework is an architectural structure that establishes how an application is represented, organized, and managed within the system. It provides a set of conventions, principles, and practices to ensure consistency and clarity in architectural design. A framework can follow standard models such as TOGAF, C4, or Zachman, offering predefined methodologies to address various organizational or technical needs. Alternatively, it may be a custom framework tailored to meet specific requirements or workflows within the system, ensuring flexibility and adaptability for unique use cases.</p>
 <p id="profile"><strong>Profile</strong></p>
-<p id="element"><strong>Element</strong></p>
-<p id="extension"><strong>Extensions</strong></p>
+<p id="element"><strong>Element</strong>
+An element is the fundamental building block of an architectural structure, representing the smallest unit that cannot be further decomposed while retaining its functionality or purpose. Each element encapsulates a specific aspect of the architecture, such as a component, module, or service, and plays a distinct role within the overall system. Elements are designed to be self-contained and well-defined, enabling precise understanding, efficient communication, and easier management within the architectural framework. Their composition and interactions with other elements form the foundation of the system’s design, behavior, and scalability.</p>
+<p id="extension"><strong>Extensions</strong>
+Extensions are modular add-ons to the system designed to enhance its functionality and adaptability. They achieve this by either extending the capabilities of existing models or introducing entirely new models to the architecture. Extensions allow for system customization without altering the core framework, enabling seamless integration of additional features or workflows. They are often developed to address specific requirements, provide scalability, or support future enhancements, ensuring that the system remains flexible and capable of evolving alongside organizational needs. Additionally, extensions can interact with the core components and other extensions through well-defined interfaces, maintaining consistency and reliability within the overall system.</p>
 <p id="release"><strong>Release</strong></p>
 <p id="deployment"><strong>Deployment</strong></p>
 <p id="adr"><strong>Architecture Decision Records</strong></p>
-<p id="fitness"><strong>Fitness Functions</strong></p>
+<p id="fitness"><strong>Fitness Functions</strong>
+Fitness Functions are measurable, objective criteria used to evaluate and validate the quality and alignment of a software system’s architecture with its desired outcomes.</p>
 </section>
 </section>
 
