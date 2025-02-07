@@ -30,21 +30,22 @@ An application is a distinct software component or module that resides within a 
 **Framework**
 A framework is an architectural structure that establishes how an application is represented, organized, and managed within the system. It provides a set of conventions, principles, and practices to ensure consistency and clarity in architectural design. A framework can follow standard models such as TOGAF, C4, or Zachman, offering predefined methodologies to address various organizational or technical needs. Alternatively, it may be a custom framework tailored to meet specific requirements or workflows within the system, ensuring flexibility and adaptability for unique use cases.
 
-.. _element:
+.. _archiment:
 
-**Element**
-An element is the fundamental building block of an architectural structure, representing the smallest unit that cannot be further decomposed while retaining its functionality or purpose. Each element encapsulates a specific aspect of the architecture, such as a component, module, or service, and plays a distinct role within the overall system. Elements are designed to be self-contained and well-defined, enabling precise understanding, efficient communication, and easier management within the architectural framework. Their composition and interactions with other elements form the foundation of the system's design, behavior, and scalability.
+**Archiment**
+An architeture element or `archiment` is the fundamental building block of an architectural structure, representing the smallest unit that cannot be further decomposed while retaining its functionality or purpose. Each element encapsulates a specific aspect of the architecture, such as a component, module, or service, and plays a distinct role within the overall system. Elements are designed to be self-contained and well-defined, enabling precise understanding, efficient communication, and easier management within the architectural framework. Their composition and interactions with other elements form the foundation of the system's design, behavior, and scalability.
 
 .. _extension:
 
 **Extensions**
 Extensions are modular add-ons to the system designed to enhance its functionality and adaptability. They achieve this by either extending the capabilities of existing models or introducing entirely new models to the architecture. Extensions allow for system customization without altering the core framework, enabling seamless integration of additional features or workflows. They are often developed to address specific requirements, provide scalability, or support future enhancements, ensuring that the system remains flexible and capable of evolving alongside organizational needs. Additionally, extensions can interact with the core components and other extensions through well-defined interfaces, maintaining consistency and reliability within the overall system.
 
-.. _adr:
+.. _versioning:
 
-**Architecture Decision Records**
+**Versioning**
+The architecture model is stored as a versioned database, which maintains a complete history of changes to the model over time. This version control mechanism enables the retrieval of any previous version of the architecture, ensuring that historical configurations can be accessed and analyzed when needed. The versioned database supports traceability and auditability, allowing architects and developers to track changes, revert to earlier versions, and maintain consistency across different stages of the architecture’s evolution. By managing versions efficiently, the system ensures flexibility, accountability, and continuity in architectural decision-making.
 
-.. _fitness:
+.. _aql:
 
-**Fitness Functions**
-Fitness Functions are measurable, objective criteria used to evaluate and validate the quality and alignment of a software system's architecture with its desired outcomes. 
+**Architecture Query Language**
+The Architecture Query Language (AQL) is a domain-specific language (DSL) designed for querying and manipulating the architecture model. It supports creation, updating, deletion, and retrieval of architectural data, providing a structured approach to model management. AQL is inspired by SQL, offering a familiar syntax that minimizes the learning curve for developers and ensures seamless adoption within existing workflows.
