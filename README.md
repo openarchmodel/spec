@@ -1,5 +1,5 @@
 # OpenArchitecureModel Specification
-The OpenArchitecureModel specification describes the standard model for defining and querying software architecture elements.
+The Open Architecure Model (OAM) specification describes the standard model for defining and querying software architecture elements.
 
 The sources can be browsed from [document](document/core/intro/introduction.rst).
 

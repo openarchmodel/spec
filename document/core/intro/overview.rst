@@ -7,7 +7,7 @@ Overview
 Concepts
 ~~~~~~~~
 
-OpenArchitectureModel is a high-level, SQL-like programming language.
+Open Architecture Model (OAM) introduces a high-level, SQL-like programming language.
 This language is structured around the following concepts:
 
 .. _organisation:
@@ -30,10 +30,6 @@ An application is a distinct software component or module that resides within a 
 **Framework**
 A framework is an architectural structure that establishes how an application is represented, organized, and managed within the system. It provides a set of conventions, principles, and practices to ensure consistency and clarity in architectural design. A framework can follow standard models such as TOGAF, C4, or Zachman, offering predefined methodologies to address various organizational or technical needs. Alternatively, it may be a custom framework tailored to meet specific requirements or workflows within the system, ensuring flexibility and adaptability for unique use cases.
 
-.. _profile:
-
-**Profile**
-
 .. _element:
 
 **Element**
@@ -43,14 +39,6 @@ An element is the fundamental building block of an architectural structure, repr
 
 **Extensions**
 Extensions are modular add-ons to the system designed to enhance its functionality and adaptability. They achieve this by either extending the capabilities of existing models or introducing entirely new models to the architecture. Extensions allow for system customization without altering the core framework, enabling seamless integration of additional features or workflows. They are often developed to address specific requirements, provide scalability, or support future enhancements, ensuring that the system remains flexible and capable of evolving alongside organizational needs. Additionally, extensions can interact with the core components and other extensions through well-defined interfaces, maintaining consistency and reliability within the overall system.
-
-.. _release:
-
-**Release**
-
-.. _deployment:
-
-**Deployment**
 
 .. _adr:
 
