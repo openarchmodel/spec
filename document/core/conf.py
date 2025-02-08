@@ -283,7 +283,7 @@ html_last_updated_fmt = '%Y-%m-%d'
 
 # Output file base name for HTML help builder.
 #
-htmlhelp_basename = 'WebAssemblydoc'
+htmlhelp_basename = 'OAMdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------

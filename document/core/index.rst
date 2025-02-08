@@ -7,11 +7,14 @@ OpenArchitectureModel Specification
 
    | Editor: Sheikh Mohammad Sajid
 
+   | Latest Draft: |OAMDraft|
+   | Issue Tracker: |OAMIssues|
 
 .. toctree::
    :maxdepth: 2
 
    intro/index
+   aql/index
 
 .. only:: latex
 

@@ -35,11 +35,6 @@ A framework is an architectural structure that establishes how an application is
 **Archiment**
 An architeture element or `archiment` is the fundamental building block of an architectural structure, representing the smallest unit that cannot be further decomposed while retaining its functionality or purpose. Each element encapsulates a specific aspect of the architecture, such as a component, module, or service, and plays a distinct role within the overall system. Elements are designed to be self-contained and well-defined, enabling precise understanding, efficient communication, and easier management within the architectural framework. Their composition and interactions with other elements form the foundation of the system's design, behavior, and scalability.
 
-.. _extension:
-
-**Extensions**
-Extensions are modular add-ons to the system designed to enhance its functionality and adaptability. They achieve this by either extending the capabilities of existing models or introducing entirely new models to the architecture. Extensions allow for system customization without altering the core framework, enabling seamless integration of additional features or workflows. They are often developed to address specific requirements, provide scalability, or support future enhancements, ensuring that the system remains flexible and capable of evolving alongside organizational needs. Additionally, extensions can interact with the core components and other extensions through well-defined interfaces, maintaining consistency and reliability within the overall system.
-
 .. _versioning:
 
 **Versioning**
@@ -49,3 +44,8 @@ The architecture model is stored as a versioned database, which maintains a comp
 
 **Architecture Query Language**
 The Architecture Query Language (AQL) is a domain-specific language (DSL) designed for querying and manipulating the architecture model. It supports creation, updating, deletion, and retrieval of architectural data, providing a structured approach to model management. AQL is inspired by SQL, offering a familiar syntax that minimizes the learning curve for developers and ensures seamless adoption within existing workflows.
+
+.. _extension:
+
+**Extensions**
+Extensions are modular add-ons to the system designed to enhance its functionality and adaptability. They achieve this by either extending the capabilities of existing models or introducing entirely new models to the architecture. Extensions allow for system customization without altering the core framework, enabling seamless integration of additional features or workflows. They are often developed to address specific requirements, provide scalability, or support future enhancements, ensuring that the system remains flexible and capable of evolving alongside organizational needs. Additionally, extensions can interact with the core components and other extensions through well-defined interfaces, maintaining consistency and reliability within the overall system.
